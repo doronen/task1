@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- <link rel="stylesheet" href="style.css"> -->
+
+
+    <script>
+        function initTreepodia(player) {
+		player.show({
+			//Required Parameters
+			account: "UA-CLALIT",
+			sku: "sku1",
+			container: "treepodiaPlayerMain",
+
+			// Optional Video Parameters
+			autoplay: false,
+			loop: false,
+			muted: false,
+
+			// Optional Player Parameters
+			controls: true,
+			showJumboPlay: true,
+			blueJumboPlay: true,
+			responsive: true,
+			showTime: true,
+			showDuration: true,
+			pictureInPicture: false,
+
+			// // Popup
+			popup: false,
+			popupBtnWidth: 50, // pixels
+			popupBtnHeight: 50, // pixels
+			popupBtnImg: null, // string:URL
+
+			// // Poster
+			showPoster: true,
+			posterUrl: null, // string:URL
+
+			gaEnabled: false,
+			gaId: null, //STRING: GTAG ID (UA-XXXXXXX-XX)
+
+			//CALLBACKS
+			onReady: function (treepodiaPlayer) {
+			},
+
+			onError: function (error) {
+			},
+		});
+	}
+</script>
+
+    </script>
+</head>
+
+<body onload="initTreepodia(player)">
+<div class=""
+<div id="treepodiaPlayerMain"></div>
+
+</body>
+<!-- Treepodia HTML5 Player 3.0 Script -->
+<script type="text/javascript" src="//dxa05szpct2ws.cloudfront.net/player3/TreepodiaPlayer.js"></script>
+    
+</html>
