@@ -1,0 +1,56 @@
+.container{
+    font-size:50px;
+    text-align:center;  
+    margin-left:auto;
+    margin-right:auto;
+}
+img#logo {
+    width: 150;
+    height: 70;
+    border:1px solid black;
+    border-radius: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p.videoHeader{
+    font-size: 20px;
+}
+
+#treepodiaPlayerMain{
+
+    text-align:center;  
+    margin-left:auto;
+    margin-right:auto;
+    border:1px solid black;
+    width: 500px;
+}
+
+.sendBtn{
+    background-color:#4286d3;
+    color:white;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    border: 1px solid black;
+}
+
+#inputField{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    background-image: linear-gradient(to bottom, black, black), linear-gradient(to bottom, white, white);
+    background-clip: content-box, padding-box;
+    color: white;
+}
+
+#changeLogoDiv{
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+}
+.col-sm-4{
+    text-align:center;  
+}
